@@ -3,7 +3,7 @@ let add = document.getElementById('append')
 
 button.addEventListener('click', (e) => {
   add.innerText = ''
-  fetch('https://git.heroku.com/floating-lake-86488.git/cake')
+  fetch('https://git.heroku.com/floating-lake-86488.git/cake/')
     .then((res) => res.json())
     .then((data) => {
       data.forEach((item) => {
